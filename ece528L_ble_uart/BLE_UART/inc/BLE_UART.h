@@ -41,10 +41,28 @@ void BLE_UART_OutChar(uint8_t data);
 
 int BLE_UART_InString(char *buffer_pointer, uint16_t buffer_size);
 
+int BLE_UART_InPacket(char *buffer_pointer, uint16_t buffer_size);
+
 void BLE_UART_OutString(char *pt);
 
 uint8_t Check_BLE_UART_Data(char BLE_UART_Data_Buffer[], char *data_string);
 
 void BLE_UART_Reset();
+
+// @brief Specifies the size of the buffer used for the BLE UART module
+#define BLE_UART_BUFFER_SIZE 128
+// @brief Carriage return character
+#define CR 0x0D
+// @brief Line feed character
+#define LF 0x0A
+// @brief Back space character
+#define BS 0x08
+// @brief escape character
+#define ESC 0x1B
+// @brief space character
+#define SP 0x20
+// @brief delete character
+#define DEL 0x7F
+
 
 #endif /* INC_BLE_UART_H_ */
