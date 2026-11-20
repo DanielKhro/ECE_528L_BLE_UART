@@ -20,7 +20,32 @@ This lab introduces the use of Universal Asynchronous Receiver/Transmitter or UA
 
 The MSP432 correctly sent bytes of data to the BLE module which was verified through oscilloscope probing, screenshots of such packets shown below. After verification, testing of the packet reads to then move the robot were done in which the MSP432 read correctly. This in turn allowed for simple motor control via a control pad on the app.
 
-**Insert Screenshots
+<img width="640" height="480" alt="TEK0004" src="https://github.com/user-attachments/assets/bdd3f340-0ca9-4e20-a765-81417941a599" />
+0xAA Byte
+
+<img width="640" height="480" alt="TEK0003" src="https://github.com/user-attachments/assets/3b05d23d-7a55-48ff-9f9a-d3ec3526389f" />
+0x55 Byte
+
+<img width="640" height="480" alt="TEK0005" src="https://github.com/user-attachments/assets/5ff5e99d-1ec4-465a-aa30-9cbd3646b3f7" />
+0xFF Byte
+
+<img width="640" height="480" alt="TEK0006" src="https://github.com/user-attachments/assets/1e88d00e-0aa6-481f-b370-9b070c9a5006" />
+0x00 Byte
+
+<img width="640" height="480" alt="TEK0007" src="https://github.com/user-attachments/assets/ad1663f4-4060-41e1-a452-a051a86eaeaf" />
+0xAA SW1
+
+<img width="640" height="480" alt="TEK0008" src="https://github.com/user-attachments/assets/3e60d341-6e02-44ec-b892-acc351ea3435" />
+0x10 SW2
+
+<img width="640" height="480" alt="TEK0009" src="https://github.com/user-attachments/assets/00437831-bc8c-4f6c-961a-92f79212ae22" />
+0xF0 SW3
+
+<img width="640" height="480" alt="TEK0010" src="https://github.com/user-attachments/assets/98fc6883-cb84-4943-841f-bb3fab74c90b" />
+0x0F SW4
+
+<img width="640" height="480" alt="TEK0011" src="https://github.com/user-attachments/assets/8ee48093-2883-4c2d-bf8c-02df0e87c008" />
+0x00 Default
 
 # Known Issues or Limitations
 
